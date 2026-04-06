@@ -51,7 +51,7 @@ rm -r second-project (от англ. remove, Ђудалитьї + recursive, Ђрекурсивныйї) Ч у
 ```mermaid
 graph LR;
   untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
+  staged    -- "git commit -m"     --> tracked/comitted;
 
 %% стрелка без текста дл€ примера: 
   A --> B;
